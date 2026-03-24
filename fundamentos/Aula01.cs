@@ -1,3 +1,5 @@
+using Fundamentos01;
+
 namespace Fundamentos;
 
 public class Aula01
@@ -8,8 +10,8 @@ public class Aula01
         //inicio
         this.ExibirCabecalho();
 
-
-
+        VariaveisETiposDeDados variaveisETiposDeDados = new VariaveisETiposDeDados();
+        variaveisETiposDeDados.Executar();
 
 
         //fim
