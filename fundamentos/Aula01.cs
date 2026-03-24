@@ -14,10 +14,22 @@ public class Aula01
         variaveisETiposDeDados.Executar();
 
         Console.WriteLine();
-        
+
         //chamar a classe OperadoresAritmeticos
         OperadoresAritmeticos operadoresAritmeticos = new OperadoresAritmeticos();
         operadoresAritmeticos.Executar();
+
+        Console.WriteLine();
+
+        //chamar a classe OperadoresComparacao
+        OperadoresComparacao operadoresComparacao = new OperadoresComparacao();
+        operadoresComparacao.Executar();
+
+        Console.WriteLine();
+
+        //chamar a classe OperadoresLogicos
+        OperadoresLogicos operadoresLogicos = new OperadoresLogicos();
+        operadoresLogicos.Executar();
 
 
         //fim
