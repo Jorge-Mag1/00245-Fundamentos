@@ -1,2 +1,19 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace Fundamentos
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Inicio da Aula01\n");
+            Aula01 aula01 = new Aula01();
+            aula01.ExecutarAula();
+            
+
+
+        }
+
+
+    }
+
+
+}
